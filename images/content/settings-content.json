@@ -1,0 +1,36 @@
+[
+  {
+    "name": "category",
+    "title": "Game cards",
+    "placeholder": "select cards type",
+    "options": [
+      {
+        "value": "animals",
+        "text": "animals"
+      },
+      {
+        "value": "colours",
+        "text": "colours"
+      }
+    ]
+  },
+  {
+    "name": "difficulty",
+    "title": "Difficulty",
+    "placeholder": "select game type",
+    "options": [
+      {
+        "value": "8",
+        "text": "4x2"
+      },
+      {
+        "value": "16",
+        "text": "4x4"
+      },
+      {
+        "value": "36",
+        "text": "6x6"
+      }
+    ]
+  }
+]
