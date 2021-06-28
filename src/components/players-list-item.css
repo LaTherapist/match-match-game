@@ -1,0 +1,38 @@
+.players-list__item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 12px;
+}
+.player__info {
+  display: flex;
+  gap: 15px;
+}
+.player__photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.player__contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.player__name {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.player__mail {
+  font-size: 1.2rem;
+}
+.player__score {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.player__score_number {
+  margin-left: 7px;
+  color: var(--main-dark-color);
+}

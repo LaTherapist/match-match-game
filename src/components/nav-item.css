@@ -1,0 +1,46 @@
+.nav__item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 96px;
+  padding: 10px 0;
+  font-size: 1.2rem;
+}
+.nav__item::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--main-light-color);
+  background-repeat: no-repeat;
+}
+.nav__item_about::before {
+  background-image: url(../assets/about.svg);
+  background-position: 50% 60%;
+}
+.nav__item_score::before {
+  background-image: url(../assets/score.svg);
+  background-size: 75%;
+  background-position: 50%;
+}
+.nav__item_settings::before {
+  background-image: url(../assets/settings.svg);
+  background-position: 50% 55%;
+}
+.nav__link {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--main-light-color);
+  z-index: 1;
+}
+.active-route {
+  background-color: var(--active-route-bg);
+}

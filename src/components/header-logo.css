@@ -1,0 +1,23 @@
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80px;
+  margin-right: 10%;
+  font-size: 1.1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.logo_top,
+.logo_bottom {
+  display: inline-flex;
+  width: 100%;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.logo_bottom {
+  color: var(--main-dark-color);
+  background-color: var(--main-light-color);
+}

@@ -1,0 +1,9 @@
+.btn_submit {
+  background-color: var(--main-dark-color);
+  color: var(--main-light-color);
+}
+.btn_reset {
+  background-color: var(--main-light-color);
+  color: var(--main-dark-color);
+  border: 1px solid var(--main-dark-color);
+}

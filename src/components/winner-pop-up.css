@@ -1,0 +1,6 @@
+.pop-up_winner {
+  top: calc(50% - 70px);
+  left: calc(50% - 160px);
+  width: 320px;
+  padding: 20px;
+}

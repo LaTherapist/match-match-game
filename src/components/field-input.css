@@ -1,0 +1,9 @@
+.field__input {
+  font-size: 1.6rem;
+  border: 0;
+  outline: none;
+  background-color: transparent;
+}
+.field__input::placeholder {
+  color: #000;
+}

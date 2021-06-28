@@ -1,0 +1,13 @@
+.setting {
+  display: flex;
+  flex-direction: column;
+  max-width: 260px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--border-color);
+}
+.setting__title {
+  margin-bottom: 10px;
+  font-size: 2rem;
+  font-weight: 500;
+}

@@ -1,0 +1,60 @@
+.card__wrapper {
+  width: 168px;
+  height: 168px;
+  perspective: 600px;
+  cursor: pointer;
+}
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  transform-style: preserve-3d;
+  transition: all 0.7s ease;
+}
+.card:hover {
+  transform: translateZ(30px);
+  box-shadow: 0 5px 10px #a6a1a1;
+}
+.flipped .card {
+  transform: rotateY(180deg);
+}
+.card__front,
+.card__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+.card__front {
+  background-color: #37c286;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card__back {
+  background-image: url(../assets/card-back.png);
+  background-size: cover;
+  transform: rotateY(180deg);
+}
+.wrong-choice .card::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #e44040;
+  opacity: 0.4;
+}
+.wrong-choice .card::after {
+  content: '';
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 25px;
+  height: 25px;
+  z-index: 2;
+  background: url(../assets/wrong.svg) center no-repeat;
+}

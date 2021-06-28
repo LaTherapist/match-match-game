@@ -1,0 +1,23 @@
+[
+  {
+    "counter" : 1,
+    "class": "instruction__block_registration",
+    "text": "Register new player in game",
+    "img": "./images/registration.png",
+    "alt": "registration"
+  },
+  {
+    "counter" : 2,
+    "class": "instruction__block_configuration",
+    "text": "Configure your game settings",
+    "img": "./images/configuration.svg",
+    "alt": "configuration"
+  },
+  {
+    "counter" : 3,
+    "class": "instruction__block_example",
+    "text": "Start you new game! Remember card positions and match it before times up.",
+    "img": "./images/game-example.png",
+    "alt": "game-example"
+  }
+]

@@ -1,0 +1,6 @@
+.form {
+  padding: 25px 15px;
+}
+.form:invalid .btn_submit {
+  display: none;
+}

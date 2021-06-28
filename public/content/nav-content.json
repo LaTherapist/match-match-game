@@ -1,0 +1,18 @@
+{
+  "about": {
+    "class": "nav__item_about",
+    "link": "#/",
+    "text": "About Game"
+  },
+  "score": {
+    "class": "nav__item_score",
+    "link": "#/score",
+    "text": "Best Score"
+  },
+  "settings": {
+    "class": "nav__item_settings",
+    "link": "#/settings",
+    "text": "Game Settings"
+  }
+}
+

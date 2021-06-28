@@ -1,0 +1,9 @@
+.winner-link_wrapper {
+  display: flex;
+  justify-content: center;
+}
+.winner-link {
+  background-color: var(--main-dark-color);
+  color: var(--main-light-color);
+  text-decoration: none;
+}
